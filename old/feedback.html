@@ -1,0 +1,48 @@
+<!-- Chapter 4 - Customer Feedback -->
+<html>
+	<head>
+		<title>Book Repo - Feedback</title>
+	</head>
+	<body>
+	<div style="width: 1140px;">
+		<div>
+			<ul style="list-style:none;">
+				<li style="float: left; margin: 10px 10px 0px 0px; width: 200px; height: 100px;"><img src="/Anderson/images/bookrepo.png" /></li>
+				<li style="float: left; margin: 10px 10px 0px 0px; width: 100px; height: 70px; padding: 30px 0px 0px 0px; text-align: center;"><a href="/Anderson/index.html">Home</a></li>
+				<li style="float: left; margin: 10px 10px 0px 0px; width: 100px; height: 70px; padding: 30px 0px 0px 0px; text-align: center;"><a href="/Anderson/createbook.html">Create Book</a></li>
+				<li style="float: left; margin: 10px 10px 0px 0px; width: 100px; height: 70px; padding: 30px 0px 0px 0px; text-align: center;"><a href="/Anderson/php/viewbooks.php">View Books</a></li>
+				<li style="float: left; margin: 10px 10px 0px 0px; width: 100px; height: 70px; padding: 30px 0px 0px 0px; text-align: center;"><a href="/Anderson/searchbooks.html">Search Books</a></li>
+				<li style="float: left; margin: 10px 10px 0px 0px; width: 100px; height: 70px; padding: 30px 0px 0px 0px; text-align: center;"><a href="/Anderson/feedback.html">Feedback</a></li>
+				<li style="float: left; margin: 10px 10px 0px 0px; width: 300px; height: 70px; padding: 30px 0px 0px 0px; text-align: center;">
+					<form action="php/search.php" method="POST">
+					<span>Search Keyword:</span><input type="text" name="keyword" size="25" maxlength="25" />
+				</li>
+			</ul>
+		</div>
+	</div>
+	<br/><br/>
+
+		<div style="width:1140px; padding: 0px 100px 0px 100px; clear:left;">
+		<form action="/Anderson/php/processfeedback.php" method="POST">
+			<table style="border: 0px;">
+				<tr>
+					<td>Your name:</td>
+					<td><input type="text" name="name" size="50" maxlength="50" /></td>
+				</tr>
+				<tr>
+					<td>Your email address:</td>
+					<td><input type="text" name="email" size="50" maxlength="50" /></td>
+				</tr>
+				<tr>
+					<td>Your feedback</td>
+					<td><input type="text" name="feedback" size="50" style="height:50px;" maxlength="50" /></td>
+				</tr>
+				<tr>
+					<td colspan="2" style="text-align: center;"><input type="submit" value="Submit Feedback" /></td>
+				</tr>
+			</table>
+		</form>	
+		</div>		
+
+	</body>
+</html>

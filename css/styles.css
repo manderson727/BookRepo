@@ -1,0 +1,19 @@
+
+
+
+.menu { list-style:none; }
+.menuitem1 { float: left; margin: 10px 10px 0px 0px; width: auto; height: 70px; padding: 0px 0px 0px 0px; text-align: center; }
+.menuitem { float: left; margin: 10px 10px 0px 0px; width: auto; height: 70px; padding: 30px 0px 0px 0px; text-align: center; }
+.maincontent { padding: 0px 100px; width: 1140px; height:auto; clear: left; margin: 0px 0px 25px 0px; }
+.books { height: 450px; width: 205px; float: left; margin: 0px 20px 20px 0px; border: 1px solid #e3e8d0; padding: 5px; }
+.books img { height: 307px; width: 205px; }
+.footer { padding: 0px 100px; width: 1140px; clear: left; margin-top: 25px; }
+label { width: 100px; float: left; text-align: left; font-weight: bold; }
+
+
+
+
+
+
+
+

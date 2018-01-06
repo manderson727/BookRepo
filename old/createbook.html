@@ -1,0 +1,59 @@
+<!-- Chapter 1 - Create form for processing the creation of books -->
+<html>
+<head>
+</head>
+	<body>	
+	<div style="width: 1140px;">
+		<div>
+			<ul style="list-style:none;">
+				<li style="float: left; margin: 10px 10px 0px 0px; width: 200px; height: 100px;"><img src="images/bookrepo.png" /></li>
+				<li style="float: left; margin: 10px 10px 0px 0px; width: 100px; height: 70px; padding: 30px 0px 0px 0px; text-align: center;"><a href="/Anderson/index.html">Home</a></li>
+				<li style="float: left; margin: 10px 10px 0px 0px; width: 100px; height: 70px; padding: 30px 0px 0px 0px; text-align: center;"><a href="/Anderson/createbook.html">Create Book</a></li>
+				<li style="float: left; margin: 10px 10px 0px 0px; width: 100px; height: 70px; padding: 30px 0px 0px 0px; text-align: center;"><a href="/Anderson/php/viewbooks.php">View Books</a></li>
+				<li style="float: left; margin: 10px 10px 0px 0px; width: 100px; height: 70px; padding: 30px 0px 0px 0px; text-align: center;"><a href="/Anderson/searchbooks.html">Search Books</a></li>
+				<li style="float: left; margin: 10px 10px 0px 0px; width: 100px; height: 70px; padding: 30px 0px 0px 0px; text-align: center;"><a href="/Anderson/feedback.html">Feedback</a></li>
+				<!--<li style="float: left; margin: 10px 10px 0px 0px; width: 300px; height: 70px; padding: 30px 0px 0px 0px; text-align: center;">
+					<form action="php/search.php" method="POST">
+					<span>Search Keyword:</span><input type="text" name="keyword" size="25" maxlength="25" />
+				</li>-->
+			</ul>
+		</div>
+	</div>
+	<br/><br/>
+
+	<div style="width:1140px; padding: 0px 100px 0px 100px; clear:left;">
+		<form action="/Anderson/php/createbook.php" method="POST">
+			<table style="border: 0px;">
+				<tr>
+					<td>Book Title</td>
+					<td><input type="text" name="booktitle" size="50" maxlength="50" /></td>
+				</tr>
+				<tr>
+					<td>ISBN Number</td>
+					<td><input type="text" name="isbn" size="50" maxlength="50" /></td>
+				</tr>
+				<tr>
+					<td>Author's Last Name</td>
+					<td><input type="text" name="author" size="50" maxlength="50" /></td>
+				</tr>
+				<tr>
+					<td>Publication Year</td>
+					<td><input type="text" name="pubyear" size="50" maxlength="50" /></td>
+				</tr>
+				<tr>
+					<td>Publisher</td>
+					<td><input type="text" name="publisher" size="50" maxlength="50" /></td>
+				</tr>
+				<tr>
+					<td>Upload Image</td>
+					<td><input type="file" name="image"></td>
+				</tr>
+				<tr>
+					<td colspan="2" style="text-align: center;"><input type="submit" value="Submit Order" /></td>
+				</tr>
+			</table>
+		</form>	
+		</div>		
+	</body>
+</html>
+	
